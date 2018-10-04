@@ -1,0 +1,4 @@
+Create DATABASE PersonasDetalleBD
+GO
+USE PersonasDetalleBD
+Go
