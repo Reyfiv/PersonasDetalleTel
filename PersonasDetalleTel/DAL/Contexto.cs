@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace PersonasDetalleTel.DAL
 {
-    public class Contexto : DbContext
+    public class contexto : DbContext
     {
         public DbSet<Personas> Personas { get; set; }
 
-        public Contexto() : base("ConStr")
+        public contexto() : base("ConStr")
         {   }
     }
 }
