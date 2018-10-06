@@ -7,21 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PersonasDetalleTel.UI.Registro;
 
-namespace PersonasDetalleTel
+namespace PersonasDetalleTel.UI.Registro
 {
-    public partial class Principal : Form
+    public partial class rTipoTelefonos : Form
     {
-        public Principal()
+        public rTipoTelefonos()
         {
             InitializeComponent();
         }
 
-        private void personasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void rTipoTelefonos_Load(object sender, EventArgs e)
         {
-            rPersonas rPersonas = new rPersonas();
-            rPersonas.Show();
+
         }
     }
 }
